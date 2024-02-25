@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #23252C;
+}
+.card {
+    text-align: center;
+    width: 320px;
+    margin: 0 auto;
+}
+
+main{
+    background: #1A1B21;
+}
+
+.myphoto {
+    width: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #F5F5F5;
+}
+
+h3 {
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+.site {
+    color: #F5F5F5;
+    font-size: 10px;
+    padding-bottom: 15px;
+}
+
+.des {
+    color: #DCDCDC;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap:17px;
+    
+}
+
+button {
+    width: 115px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 18px;
+}
+
+.btn-email {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    color: #374151;
+}
+
+.btn-linkedin{
+    background: #5093E2;
+    color: #FFFFFF;
+}
+
+.intro {
+    padding-bottom: 20px;
+}
+
+footer {
+    background: #161619;
+    height: 64px;
+    color: #918E9B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 30px;
+
+}
